@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #353030;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.keys {
+    min-height: 800px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    
+    
+}
+
+.key {
+    width: 80px;
+    height: 800px;
+    border: 2px solid #FFF;
+    color: #000000;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    align-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #FFF;
+}
+.key.active {
+    border: 2px solid #FF0;
+    color: #FF0;
+}
+
+.composer {
+    width: 260px;
+    margin-top: 20px;
+}
+.composer #input {
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding: 10px 15px;
+}
+.composer button {
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.composer button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 13px;
+}
+
+span{
+    margin-right: 30px;
+}
+
+.color{
+    width: 40px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    background-color: #afdbe9;
+}
+.color2{
+    margin-right: 20px;
+    width: 40px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: #050505e8;
+}
+.color3{
+    margin-right: 20px;
+    width: 40px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: #29b674;
+}
+.color4{
+    margin-right: 20px;
+    width: 40px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: #2ba12b;
+}
+.color5{
+    margin-right: 20px;
+    width: 40px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: #923196;
+}
+.color6{
+    margin-right: 20px;
+    width: 40px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: #f02f2f;
+}
+.color7{
+    margin-right: 20px;
+    width: 40px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: #183baf;
+}
+.color8{
+    margin-right: 20px;
+    width: 40px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: #cc5835;
+}
+.color9{
+    margin-right: 20px;
+    width: 40px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: #ca82b2;
+}
