@@ -9,8 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #353030;
-    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(#000,#1d1d1d,#474646,#8f8f8f);
     
 }
 
@@ -19,7 +18,7 @@ h1 {
     margin-bottom: 20px;
 }
 .keys {
-    min-height: 800px;
+    
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 10px;
@@ -29,7 +28,7 @@ h1 {
 
 .key {
     width: 80px;
-    height: 800px;
+    height: 700px;
     border: 2px solid #FFF;
     color: #000000;
     display: flex;
@@ -39,7 +38,8 @@ h1 {
     flex-direction: column;
     font-size: 30px;
     font-weight: bold;
-    background-color: #FFF;
+    background: linear-gradient(-217deg,#baf0f7, #dbdfa3 8%)
+    ;
 }
 .key.active {
     border: 2px solid #FF0;
@@ -143,3 +143,77 @@ span{
     margin-bottom: 10px;
     background-color: #ca82b2;
 }
+
+
+@media (max-height:720px)  {
+    .keys{
+        min-height: 400px;
+
+    }
+    .key{
+        height: 400px;
+    
+
+    }
+    .color{
+        height: 200px;
+        width: 20px;
+        margin-right: 30px;
+
+    }
+
+    .color2{
+        height: 200px;
+        width: 20px;
+        margin-right: 30px;
+
+    }
+    
+    .color3{
+        height: 200px;
+        width: 20px;
+        margin-right: 30px;
+
+    }
+    .color4{
+        height: 200px;
+        width: 20px;
+        margin-right: 30px;
+
+    }
+
+    .color5{
+        height: 200px;
+        width: 20px;
+        margin-right: 30px;
+
+    }
+
+    .color6{
+        height: 200px;
+        width: 20px;
+        margin-right: 30px;
+
+    }
+
+    .color7{
+        height: 200px;
+        width: 20px;
+        margin-right: 30px;
+
+    }
+    .color8{
+        height: 200px;
+        width: 20px;
+        margin-right: 30px;
+
+    }
+
+    .color9{
+        height: 200px;
+        width: 20px;
+        margin-right: 30px;
+
+    }
+}
+
